@@ -3,7 +3,7 @@ In this project, we have collected the dataset from kaggle.com. we have cleaned 
 ## First model
 We built a model using an embedding layer at first, followed by a LSTM layer of 100 neurons density, followed by a dense layer with sigmoid activation for classified output. Then the model is trained for 10 epoches.
 ### results:
-192/192 [========================] - 6s 32ms/step - loss: 0.0021 - accuracy: 0.9997 - val_loss: 0.6474 - val_accuracy: 0.9145
+192/192 [==========================] - 6s 32ms/step - loss: 0.0021 - accuracy: 0.9997 - val_loss: 0.6474 - val_accuracy: 0.9145
 The report says the after training the training accuracy is 0.9997 and the validation accuracy is 0.9145 which is very good results.
 The confusion matrix for this prediction test results on test data is - 
 [[3096,  323],
@@ -11,7 +11,7 @@ The confusion matrix for this prediction test results on test data is -
 ## Second model
 We built a model using an embedding layer at first, followed by a dropout layer of dropout ratio 0.3, followed by a LSTM layer of 100 neurons density, followed by a dropout layer of dropout ratio 0.3, followed by a dense layer with sigmoid activation for classified output. Then the model is trained for 10 epoches.
 ### results:
-192/192 [========================] - 6s 32ms/step - loss: 0.0177 - accuracy: 0.9937 - val_loss: 0.3978 - val_accuracy: 0.9102
+192/192 [==========================] - 6s 32ms/step - loss: 0.0177 - accuracy: 0.9937 - val_loss: 0.3978 - val_accuracy: 0.9102
 The report says the after training the training accuracy is 0.9937 and the validation accuracy is 0.9102 which is a poor result than the previous one.
 The confusion matrix for this prediction test results on test data is - 
 [[3105,  314],
